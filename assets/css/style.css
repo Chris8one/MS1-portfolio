@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.navBar li a {
+    text-decoration: none;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.navBar li {
+    margin-right: 15px;
+    padding: 0;
+    display: inline-block;
+}
+
+.navBar ul {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.navSetup {
+    background: rgba(0,0,0,0.5);
+    height: 50px;
+    width: 100vw;
+    position: absolute;
+}
+
+.diamond {
+    font-size: 48px;
+    float: top left;
+    position: absolute;
+    margin-left: 10px;
+    color: #dd780b;
+    z-index: 1;
+}
+
+#hero {
+    background-attachment: fixed;
+    background-image: url("../assets/images/hero.jpg");
+    background-position: bottom;
+    position: relative;
+    z-index: 1;
+}
