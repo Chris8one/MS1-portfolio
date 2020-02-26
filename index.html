@@ -5,8 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		type="text/css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -19,8 +17,8 @@
 </head>
 
 <body>
-	<div class="navSetup">
-		<i class="fa fa-diamond diamond" aria-hidden="true"></i>
+	<div id="navSetup">
+		<a href="#navSetup"><i class="fa fa-diamond diamond" aria-hidden="true"></i></a>
 		<nav class="navBar">
 			<ul>
 				<li>
@@ -33,7 +31,7 @@
 					<a href="#skills"> Skills </a>
 				</li>
 				<li>
-					<a href="#skills"> Contact </a>
+					<a href="#contact"> Contact </a>
 				</li>
 				<li>
 					<a href="#" target="_blank"> CV </a>
@@ -48,21 +46,48 @@
 		</div>
 	</div>
 	<div id="about">
-		<div class="container">
-			<div class="row">
-				<h2>About</h2>
-			</div>
-			<div>
-				<p></p>
-			</div>
-		</div>
+		<div class="row">
+            <div id="about-info">
+                <h2 class="headers">About_</h2>
+                <p>With a background from everything between carpentring to tattooing, to truck driver.<br>
+                I decided to change my career completly and went for software development.<br>
+                <br>
+                I study at Code Institute in ireland, Dublin in their full stack software development course.</p>
+            </div>
+            <div id="about-pic">
+                <img src="assets/images/chris.jpg"></img>
+            </div>
+        </div>
 	</div>
-	<section id="portfolio">
-	</section>
-	<section id="skills">
-	</section>
-	<section id="contact">
-	</section>
+	<div id="portfolio">
+        <div class="row">
+            <div class="works">
+                <h2 class="headers fixing">Portfolio_</h2>
+            </div>
+        </div>
+	</div>
+	<div id="skills">
+        <div class="row">
+            <div id="skills-info">
+                <h2 class="headers fixing">Skills_</h2>
+            </div>
+            <div class="skillDiv">
+                <p>.<span>HTML</span></p>
+            </div>
+            <div class="skillDiv">
+                <p>.<span>CSS</span></p>
+            </div>
+            <div class="skillDiv">
+                <p>.<span>JavaSript</span></p>
+            </div>
+            <div class="skillDiv">
+                <p>.<span>Django</span></p>
+            </div>
+        </div>
+    </div>
+	<div id="contact">
+        <h2 class="headers fixing">Contact_</h2>
+	</div>
 	<footer>
 	</footer>
 </body>

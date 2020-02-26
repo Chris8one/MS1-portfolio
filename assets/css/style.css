@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700');
 
 body {
-    background-color: #fdfdfd
+    background-color: #fdfdfd;
 }
 .heads {
     font-family: ;
@@ -15,7 +15,7 @@ body {
 .navBar a {
     text-decoration: none;
     font-family: "Exo", sans-serif;
-    color: #fff;
+    color: #fafafa;
     letter-spacing: 2px;
     height: 50px;
 }
@@ -35,7 +35,7 @@ body {
     margin-top: 14px;
 }
 
-.navSetup {
+#navSetup {
     background: rgba(0,0,0,0.5);
     height: 50px;
     width: 100%;
@@ -53,36 +53,107 @@ body {
     color: #dd780b;
     z-index: 2;
 }
+
+.headers {
+    font-family: "Exo", sans-serif;
+    margin-top: 60px;
+    margin-left: 5vw;
+    font-weight: 400;
+}
+
+.fixing {
+    position: absolute;
+}
+
 /*********** Hero ***********/
 #home {
     background-attachment: fixed;
     background-image: url("/assets/images/hero.jpg");
     background-position: bottom;
     background-size: cover;
-    position: relative;
+    position: static;
     height: 100vh;
     width: 100%;
     margin-top: -50px;
 }
 #home p {
+    font-family: "Dosis", sans-serif;
+    font-weight: 100;
     text-transform: uppercase;
     font-size: 2em;
     margin-bottom: 0;
+    text-shadow: 1px 1px 2px;
 }
 #home span {
+    font-family: "Exo", sans-serif;
     font-size: 5em;
-    font-weight: 300;
+    font-weight: 100;
+    text-shadow: 2px 2px 3px;
 }
 .hero-text {
-    font-family: "Exo", sans-serif;
     padding-top: 25vh;
     margin-left: 5vw;
     position: relative;
     z-index: 2;
 }
+
 /*********** About ***********/
 #about {
+    background-image: url("/assets/images/backgr.jpg");
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 100vh;
+    width: 100%;
+    column-count: 2;
 }
+
+#about-info p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    font-weight: 300;
+}
+
+#about-pic img {
+    height: 60vh;
+    float: right;
+    margin: 62px 5vw 62px 0;
+}
+
 /*********** Portfolio ***********/
+#portfolio {
+    background-attachment: fixed;
+    background-image: url("/assets/images/portfolio.jpg");
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 100vh;
+    width: 100%;
+}
+
 /*********** Skills ***********/
+#skills {
+    background-image: url("/assets/images/backgr2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 100vh;
+    width: 100%;
+}
+
+#skills-info {
+    column-count: 4;
+}
+
 /*********** Contact ***********/
+#contact {
+    background-attachment: fixed;
+    background-image: url("/assets/images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 100vh;
+    width: 100%;
+}
